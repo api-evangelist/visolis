@@ -1,7 +1,17 @@
 aid: visolis
 name: Visolis
-description: Visolis is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Visolis is a biomanufacturing company that combines synthetic biology with
+  chemical catalysis to convert plant biomass into MEV (mevalonic acid), a
+  proprietary platform molecule used to make sustainable, bio-based alternatives
+  to petroleum-derived chemicals and fuels. Its products include bio-isoprene
+  for synthetic rubber (a partnership with Zeon), AroSAF 100% bio-based
+  sustainable aviation fuel, and non-toxic bio-based industrial solvents
+  (piloted with the U.S. Department of Defense). Headquartered in San Leandro,
+  California and led by CEO Deepak Dugar, Visolis is a climate-tech company
+  surfaced as a DCVC portfolio company and added to the API Evangelist network.
+  As of this enrichment pass Visolis publishes a corporate marketing site but no
+  public developer API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/visolis/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +19,47 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Synthetic Biology
+- Biomanufacturing
+- Sustainable Materials
+- Green Chemistry
+- Climate Tech
+- Bio-Based Chemicals
+- Industrial Biotechnology
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/visolis.png
 apis: []
+common:
+- type: Website
+  url: https://www.visolisbio.com
+- type: Careers
+  url: https://visolis.breezy.hr
+- type: TermsOfService
+  url: https://www.visolisbio.com/terms
+- type: PrivacyPolicy
+  url: https://www.visolisbio.com/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
