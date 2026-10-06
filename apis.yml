@@ -43,7 +43,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Synthetic Biology
@@ -56,6 +56,8 @@ tags:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/visolis.png
 apis: []
 common:
+- url: https://www.visolisbio.com/blog
+  type: Blog
 - type: Website
   url: https://www.visolisbio.com
 - type: Careers
